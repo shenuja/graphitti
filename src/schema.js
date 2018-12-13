@@ -7,7 +7,7 @@ const schema = gql `
   }
 
   type Mutation {
-    createProject(name: String!): Project!
+    createProject(name: String!,location: String!): Project!
   }
 
   type Project{
