@@ -4,6 +4,7 @@ const schema = gql `
   type Query {
     allProjects: [Project!]!
     project(id: ID!): Project
+    projectByLocation(location: String!): [Project]!
   }
 
   type Mutation {
@@ -15,6 +16,7 @@ const schema = gql `
     name: String!
     location: String!
   }
+
 `
 
 module.exports = schema

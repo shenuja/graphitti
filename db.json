@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "id": "project-0",
+      "name": "Sunrise Hospital",
+      "location": "Kochi, Kerala"
+    },
+    {
+      "id": "project-1",
+      "name": "Holiday Inn",
+      "location": "Singapore"
+    },
+    {
+      "id": "project-NaN",
+      "name": "Brand New",
+      "location": "Bangalore"
+    },
+    {
+      "id": "project-3",
+      "name": "sdsd",
+      "location": "sds"
+    },
+    {
+      "id": "project-4",
+      "name": "sdsd",
+      "location": "sds"
+    }
+  ]
+}
