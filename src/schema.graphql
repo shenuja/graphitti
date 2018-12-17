@@ -4,10 +4,11 @@ const schema = gql `
   type Query {
     allProjects: [Project!]!
     project(id: ID!): Project
+    projectByLocation(location: String!): [Project]!
   }
 
   type Mutation {
-    createProject(name: String!): Project!
+    createProject(name: String!,location: String!): Project!
   }
 
   type Project{
